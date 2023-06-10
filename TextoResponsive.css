@@ -1,0 +1,51 @@
+div.examole{
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+@media screen and(min-width: 601px){
+    div.example {
+        font-size: 80px;
+    }
+}
+
+@media screen and(min-width: 601px){
+    div.example {
+        font-size: 30px;
+    }
+}
+.flex-container>{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.flex-container>div{
+    height: 1000px;
+    width: 100%;
+    border:5px solid #fff;
+}
+
+.flex-container>.tropical{
+    background: url(./MY\ HIJA\ AMADA.jpeg)
+    
+      
+    
+}
+
+.flex-container>.cold{
+    background: url("./img/");
+}
+.flex-container>.pnw{
+    background: url("./img/MY\ HIJA\ PRECIOSA.jpeg");
+}
+.flex-container>.desert{
+    background: url("./img/Mis\ bebes.jpeg");
+}
+@media :only screen and(max-width: 1000px) {
+    .flex-container{
+        | flex-wrap;
+    }
+    
+}

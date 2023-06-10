@@ -1,0 +1,35 @@
+.flex-container>{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.flex-container>div{
+    height: 1000px;
+    width: 100%;
+    border:5px solid #fff;
+}
+
+.flex-container>.tropical{
+    background: url(./MY\ HIJA\ AMADA.jpeg)
+    
+      
+    
+}
+
+.flex-container>.cold{
+    background: url("./MY\ HIJA\ PRECIOSA.jpeg");
+}
+.flex-container>.pnw{
+    background: url("./MY\ REINA.jpeg");
+}
+.flex-container>.desert{
+    background: url("./Mis\ bebes.jpeg");
+}
+@media :only screen and(max-width: 100px) {
+    .flex-container{
+        | flex-wrap;
+    }
+    
+}
